@@ -1,0 +1,87 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comment-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0px 0px 8px 0px;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.comment-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+.profile {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 600;
+  padding: 20px;
+  width: 60px;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 40px;
+  border: none;
+}
+.time {
+  color: #334155;
+  font-size: 12px;
+  font-family: 'roboto';
+}
+.name {
+  color: #1e293b;
+  font-size: 14px;
+  font-family: 'roboto';
+}
+.line {
+  width: 100%;
+  color: #94a3b8;
+  height: 5px;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  align-self: space-between;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
